@@ -13,8 +13,8 @@ python -m playwright install chromium
 
 ```powershell
 $env:BASE_URL="http://www.qzdatasoft.com:8084/gld/"
-$env:LOGIN_USERNAME="gjl"
-$env:LOGIN_PASSWORD="12345678"
+$env:LOGIN_USERNAME="qzkj"
+$env:LOGIN_PASSWORD="123456"
 
 # 按实际页面调整以下选择器
 $env:LOGIN_USERNAME_SELECTOR="input[name='username']"
